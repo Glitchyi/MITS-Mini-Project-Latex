@@ -1,6 +1,6 @@
-![Project Logo](images/MITS.png)
-
 # Mini Project Report
+
+![Project Logo](images/MITS.png)
 
 This repository contains a LaTeX template for a mini project report. The template provides a structured format for documenting the key aspects of a project, including the introduction, objectives, methodology, results, conclusion, references, and acknowledgements. It also includes a placeholder for an image, which is currently set to display a logo from the `images` directory.
 
@@ -28,8 +28,15 @@ This repository contains a LaTeX template for a mini project report. The templat
 .
 ├── base
 │   └── package.tex 
+├── chapters
+│   ├── introduction.tex
+│   └── proposed_work.tex
+│   .
+│   .
 ├── images
-│   └── *.png
+│   └── MITS.png
+│   .
+│   .
 ├── pages
 │   ├── certificate.tex
 │   ├── declaration.tex
@@ -37,11 +44,8 @@ This repository contains a LaTeX template for a mini project report. The templat
 ├── sections
 │   ├── abstract.tex
 │   ├── acknowledgment.tex
-│   ├── introduction.tex
-│   └── proposed_work.tex
 └── README.md
 ```
-
 
 - **Root Directory**: The root directory of your project.
 - **images/**: This directory contains all the images used in the project.

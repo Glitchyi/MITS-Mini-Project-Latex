@@ -5,6 +5,7 @@
 \begin{document}
 
 % Project Title Page
+
 \include{pages/titlepage}
 
 
@@ -47,76 +48,25 @@
 \setcounter{page}{1}
 
 
-\include{sections/introduction}
+% Main Content 
+
+\include{chapters/introduction}
 
 \newpage
 
-\include{sections/proposedwork}
+\include{chapters/proposedwork}
 
 \newpage
 
-\chapter{PROJECT DESIGN}
-\vspace{-1 cm}
-\section{SYSTEM ARCHITECTURE}
-\section{MODULES}
-\subsection{first module}
-
-\subsection{second module}
-\subsection{third module}
-
-
-
-\section{DATA FLOW DIAGRAM}
-\subsection{DFD LEVEL 0}
-\renewcommand\thefigure{\thechapter.\arabic{figure}}
-
-
-\subsection{DFD LEVEL 1}
-
-\subsection{DFD LEVEL 2}
-\renewcommand\thefigure{\thechapter.\arabic{figure}}
-
-
-\newpage
-\section{DATABASE TABLE DESIGN}
-\subsection{first table in db}
-
-\subsection{second table in db}
-
-
-
-
-\section{GUI DESIGN}
-
-\section{TECHNOLOGY STACK}
-
-\section{SYSTEM REQUIREMENTS}
-
-
-\chapter{IMPLEMENTATION}
-
-\section{CODE SNIPPETS}
-\noindent
-
-
+\include{chapters/projectdesign}
 
 \newpage
 
-\section{SCREENSHOTS}
-
-
-
-\begin{figure}[hbtp]
-    \centering
-    \includegraphics{images/MITS.png}
-    \caption{figure name}
-    \label{fig1}
-\end{figure}
-
-\chapter{CONCLUSION}
+\include{chapters/implementation}
 
 \newpage
 
-\section{REFERENCES}
+\include{chapters/conclusion}
+
 
 \end{document}
