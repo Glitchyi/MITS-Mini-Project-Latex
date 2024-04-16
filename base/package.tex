@@ -1,0 +1,48 @@
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{biblatex}
+\usepackage{emptypage}
+\usepackage{graphicx}
+\usepackage{glossaries}
+\usepackage{dirtytalk}
+\renewcommand{\baselinestretch}{1.5}
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ left=1.2in,
+ top=1in,
+ bottom=1.25in,
+ right=1in
+}
+\usepackage{sectsty}
+
+
+\chapternumberfont{\vspace{-2 cm} \centering \Large \MakeUppercase  }
+\chaptertitlefont{\vspace{-0.5 cm} \centering \Large \MakeUppercase }
+\sectionfont{\large\uppercase}
+\subsectionfont{\large }
+
+
+
+
+\usepackage{mathptmx}
+\usepackage{fancyhdr}
+\newcommand{\changefont}{%
+\fontsize{10}{12}\selectfont
+}
+\usepackage{tocloft}
+\usepackage{tabularx}
+\newcommand{\listequationsname}{List of Equations}
+ \newlistof{myequations}{equ}{\listequationsname}
+ \newcommand{\myequations}[1]{%
+ \addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
+\renewcommand{\contentsname}{CONTENTS}
+\renewcommand{\listfigurename}{LIST OF FIGURES}
+%\renewcommand{\listtablename}{My nice list of table}
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
+\renewcommand{\cftlottitlefont}{\hspace*{\fill}\large\bfseries}
+\renewcommand{\cftafterlottitle}{\hspace*{\fill}}
+\renewcommand{\cftloftitlefont}{\hspace*{\fill}\large\bfseries}
+\renewcommand{\cftafterloftitle}{\hspace*{\fill}}
